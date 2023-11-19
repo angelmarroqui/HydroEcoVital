@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroEco Vital</title>
+    <link rel="stylesheet" href="Estilo8.css" type="text/css">
+    <link rel="icon" href="Img/INICIO DE SESION/icono.png" >
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkboton">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </label>
+        <a href="Index.html" class="enlace">
+            <div class="logo">
+                <img src="Img/INICIO DE SESION/icono.png" alt="Logo" class="logo">
+            </div>
+            <div class="texto">
+                <h3 style="opacity: 2;">HydroEco Vital</h3>
+            </div>
+        </a>
+        <ul>
+            <li><a href="Index.html" class="Loginbtn" >Iniciar Sesión</a></li>
+        </ul>
+    </header>
+    
+    <!-- Inicio de sesion -->
+    <div class="Inicio-Contenedor">
+        <div class="Inicio-Info-Contenedor">
+            <h1 class="Titulo">Regístrarse</h1>
+            <form class="Input-Contenedor">
+                <input class="input" type="text" id="Usuario" placeholder="Usuario">
+                <input class="input" type="password" id="Contra" placeholder="Contraseña">
+                <input type="button" value="Regístrase" onclick="Datos()" class="btn" >
+                <p>¿Ya tienes Cuenta?<a href="Index.html"><span class="span"> Acceder</span></a></p>
+            </form>
+        </div>
+        <img class="Imagen" src="Img/INICIO DE SESION/Diseño sin título.png" alt="Inicio" >
+    </div>
+    <script src="Codigo.js"></script>
+
+    <!-- Pie de pagina -->
+    <footer class="pie-pagina">
+        <hr>
+        <div class="caja2">
+            <center>
+                <small>&copy;2023 | Todos los Derechos Reservados | Sitio Desarrollado por Informática   </small>
+                <br>
+                <br>
+            </center>
+        </div>
+        <div class="caja3">
+            <center>
+                <a class="ico1" href="https://www.facebook.com/profile.php?id=61553120982399&mibextid=ZbWKwL"><img src="Img/Redes/facebook.png" alt="Facebook" class="ico"></a>
+                <a class="ico1" href="https://twitter.com/HydroVitalEco"><img src="Img/Redes/twitter.png" alt="" class="ico"></a>
+                <a class="ico1" href="https://instagram.com/hydroecovital?igshid=YzAwZjE1ZTI0Zg=="><img src="Img/Redes/instagram.png" alt="Instagram" class="ico"></a>
+                <a class="ico1" href="https://t.me/+MahenNmVVcsxNTEx"><img src="Img/Redes/Telegram.png" alt="" class="ico2"></a>
+                <a class="ico1" href="https://youtube.com/@HydroEcoVital?si=yC4EXuHgzOpqnTgI"><img src="Img/Redes/youtube.png" alt="Youtube" class="ico"></a>
+                <br>
+                <br>
+            </center>
+        </div>
+    </footer>
+    <!-- Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
